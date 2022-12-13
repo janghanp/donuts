@@ -8,7 +8,7 @@ import { Mesh } from "three";
 
 const textLoader = new THREE.TextureLoader();
 
-const textTexture = textLoader.load("./matcaps/8.png");
+const textTexture = textLoader.load("/matcaps/8.png");
 
 const canvas = document.querySelector(".webgl");
 
