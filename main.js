@@ -30,8 +30,8 @@ window.addEventListener("resize", () => {
 
 const fontLoader = new FontLoader();
 
-fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
-  const textGeometry = new TextGeometry("I want to render korean...", {
+fontLoader.load("/fonts/Gugi_Regular.json", (font) => {
+  const textGeometry = new TextGeometry("티아라 이스 쿨", {
     font,
     size: 0.5,
     height: 0.2,
